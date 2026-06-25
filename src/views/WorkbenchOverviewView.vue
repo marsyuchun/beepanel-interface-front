@@ -58,7 +58,7 @@ function statusType(
     <section class="overview-application">
       <header class="overview-topbar">
         <div>
-          <span>beepanel-interface-front</span>
+          <span>接口自动化测试平台</span>
           <i>/</i>
           <strong>工作台</strong>
         </div>

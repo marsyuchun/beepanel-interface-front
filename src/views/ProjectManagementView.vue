@@ -78,7 +78,7 @@ async function createProject(): Promise<void> {
     <section class="project-application">
       <header class="project-topbar">
         <div>
-          <span>beepanel-interface-front</span>
+          <span>接口自动化测试平台</span>
           <i>/</i>
           <strong>项目管理</strong>
         </div>

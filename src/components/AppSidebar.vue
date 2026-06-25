@@ -28,8 +28,8 @@ const activePath = computed(() => route.path)
         <span />
       </span>
       <div>
-        <strong>beepanel-interface-front</strong>
-        <small>接口自动化测试平台</small>
+        <strong>接口自动化测试平台</strong>
+        <small>测试管理、编排与执行</small>
       </div>
     </div>
 

@@ -50,7 +50,7 @@ const router = createRouter({
 })
 
 describe('CaseWorkbenchView', () => {
-  it('renders the beepanel-interface-front navigation and primary actions', async () => {
+  it('renders the 接口自动化测试平台 navigation and primary actions', async () => {
     await router.push('/')
     await router.isReady()
 
@@ -60,7 +60,7 @@ describe('CaseWorkbenchView', () => {
       },
     })
 
-    expect(wrapper.text()).toContain('beepanel-interface-front')
+    expect(wrapper.get('.brand strong').text()).toBe('接口自动化测试平台')
     expect(wrapper.text()).toContain('用例编排')
     expect(wrapper.get('[data-testid="insert-case"]').text()).toContain('插入用例')
     expect(wrapper.get('[data-testid="run-suite"]').text()).toContain('执行测试')
