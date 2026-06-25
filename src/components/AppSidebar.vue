@@ -28,7 +28,7 @@ const activePath = computed(() => route.path)
         <span />
       </span>
       <div>
-        <strong>API Pilot</strong>
+        <strong>beepanel-interface-front</strong>
         <small>接口自动化测试平台</small>
       </div>
     </div>

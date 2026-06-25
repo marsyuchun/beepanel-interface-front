@@ -58,7 +58,7 @@ function statusType(
     <section class="overview-application">
       <header class="overview-topbar">
         <div>
-          <span>API Pilot</span>
+          <span>beepanel-interface-front</span>
           <i>/</i>
           <strong>工作台</strong>
         </div>
